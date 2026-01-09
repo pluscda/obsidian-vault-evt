@@ -1,37 +1,17 @@
 # ====================
-# Obsidian Files
+# Obsidian Configuration
 # ====================
-
-# Workspace (contains window layout, open files, etc.)
-.obsidian/workspace
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-
-# Cache files
-.obsidian/cache/
-
-# Plugins data (if you want to keep plugin settings, remove this)
-.obsidian/plugins/*/data.json
-
-# Obsidian sync files
-.obsidian/sync-*.json
-
-# Graph view data
-.obsidian/graph.json
-
-# Starred files
-.obsidian/starred.json
+# Ignore entire .obsidian folder
+.obsidian/
 
 # ====================
 # Trash
 # ====================
 .trash/
-.Trash/
 
 # ====================
 # System Files
 # ====================
-
 # macOS
 .DS_Store
 .AppleDouble
@@ -42,21 +22,18 @@
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
-ehthumbs_vista.db
 desktop.ini
 $RECYCLE.BIN/
 
 # Linux
 *~
 .directory
-.Trash-*
 
 # ====================
 # Temporary Files
 # ====================
 *.tmp
 *.temp
-*.log
 *.swp
 *.swo
 *~
@@ -65,42 +42,4 @@ $RECYCLE.BIN/
 # Backup Files
 # ====================
 *.bak
-*.backup
-*-backup.*
-
-# ====================
-# Conflict Files
-# ====================
 *-conflict-*
-*.sync-conflict-*
-
-# ====================
-# Optional: Private/Sensitive Content
-# ====================
-# Uncomment if you have private notes
-# Private/
-# personal/
-# .secret/
-
-# ====================
-# Optional: Attachments (if too large)
-# ====================
-# Uncomment if you don't want to sync large files
-# attachments/
-# *.pdf
-# *.mp4
-# *.mov
-# *.zip
-
-# ====================
-# Node modules (if using for plugins development)
-# ====================
-node_modules/
-package-lock.json
-yarn.lock
-
-# ====================
-# Other
-# ====================
-.vscode/
-.idea/
